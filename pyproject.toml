@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "testing-batch-editing-obsidian"
+version = "0.1.0"
+description = ""
+authors = ["OctaneOolong <62565951+OctaneOolong@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+py-obsidianmd = "^0.1.7"
+pathlib = "^1.0.1"
+setuptools = "^70.1.1"
+polars = "^0.20.31"
+python-dateutil = "^2.9.0.post0"
+python-frontmatter = "^1.1.0"
+pytest = "^8.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

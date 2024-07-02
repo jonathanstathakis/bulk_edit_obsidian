@@ -20,7 +20,7 @@ def parse(paths: list[Path] | list[str]) -> list[dict[Path, frontmatter.Post]]:
         if not path_.suffix == ".md":
             raise ValueError(f"expecting markdown file, got {path_}")
         try:
-            loaded_notes.append(frontmatter.load(str(path_)))
+            loaded_notes.append({"path": path_, "post": frontmatter.load(str(path_))})
         except (parser.ParserError, scanner.ScannerError) as e:
             errors.append({"path": path_, "error": e})
         else:

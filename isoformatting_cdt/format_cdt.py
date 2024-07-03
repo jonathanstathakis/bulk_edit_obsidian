@@ -1,6 +1,5 @@
-import polars as pl
 from pathlib import Path
-from dateutil.parser import parse as dateutil_parse, ParserError as dateutil_ParserError
+from dateutil.parser import parse as dateutil_parse
 from datetime import datetime
 import markdown_parser
 import format_cdt

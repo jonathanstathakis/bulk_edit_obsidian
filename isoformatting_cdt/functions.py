@@ -1,4 +1,4 @@
-from testing_batch_editing_obsidian import definitions
+import definitions
 from pyomd import Notes, Note, metadata
 from pathlib import Path
 import polars as pl

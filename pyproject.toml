@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "testing-batch-editing-obsidian"
+name = "isoformatting_cdt"
 version = "0.1.0"
 description = ""
 authors = ["OctaneOolong <62565951+OctaneOolong@users.noreply.github.com>"]
@@ -7,10 +7,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-py-obsidianmd = "^0.1.7"
 pathlib = "^1.0.1"
 setuptools = "^70.1.1"
-polars = "^0.20.31"
 python-dateutil = "^2.9.0.post0"
 python-frontmatter = "^1.1.0"
 pytest = "^8.2.2"

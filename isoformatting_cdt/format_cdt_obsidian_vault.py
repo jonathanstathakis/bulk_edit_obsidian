@@ -10,5 +10,6 @@ paths = (
 )
 
 
-updated_posts = format_cdt.format_cdts(paths, dryrun=False)
-[(post["path"], post["post"]["cdt"]) for post in updated_posts]
+updated_posts = format_cdt.format_cdts(paths, dryrun=True)
+
+print(updated_posts)
